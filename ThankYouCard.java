@@ -8,7 +8,7 @@ class ThankYouCard {
 		String gift = input.nextLine();
 		System.out.println("Enter the name of the person you received the gift from:");
 		String name = input.nextLine();
-		System.out.println("Copy and paste the output below CTRL-Shift-V");
+		String instructions = ("Copy and paste the output below CTRL-Shift-V");
 		System.out.println("Thank you very much for the " + gift + " " + name + "! I really liked it!");
 	}
 	public static void main(String[] args) {

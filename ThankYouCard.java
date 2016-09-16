@@ -2,8 +2,8 @@ import java.util.Scanner;
 class ThankYouCard {
 	private void PrintThankYou() {
 		Scanner input = new Scanner(System.in);
-		System.out.println("Thank You Card Generator");
-		System.out.println("CHOICES:\nThank you very much for the [gift] [name]! I really liked it! (3)\nThanks [name] for the [gift]! (3)\nAmazing gift. Thank you [name]! (3)");
+		System.out.println("THANK YOU CARD GENERATOR 1.1");
+		System.out.println("CHOICES:\nThank you very much for the [gift] [name]! I really liked it! (1)\nThanks [name] for the [gift]! (2)\nAmazing gift. Thank you [name]! (3)");
 		System.out.println("Enter the item you received as a gift:");
 		String gift = input.nextLine();
 		System.out.println("Enter the name of the person you received the gift from:");
@@ -15,11 +15,11 @@ class ThankYouCard {
     switch(choice)  {
 
         case 1:
-        System.out.println("Thank you very much for the     " + gift + " " + name + "! I really liked it!");
+        System.out.println("Thank you very much for the " + gift + " " + name + "! I really liked it!");
         break;
 
         case 2:
-        System.out.println("Thanks " + name + " for the" + gift + "!");
+        System.out.println("Thanks " + name + " for the " + gift + "!");
         break;
 
         case 3:

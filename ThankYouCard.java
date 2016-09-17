@@ -15,14 +15,17 @@ class ThankYouCard {
     switch(choice)  {
 
         case 1:
+        System.out.println(instructions);
         System.out.println("Thank you very much for the " + gift + " " + name + "! I really liked it!");
         break;
 
         case 2:
+        System.out.println(instructions);
         System.out.println("Thanks " + name + " for the " + gift + "!");
         break;
 
         case 3:
+        System.out.println(instructions);
         System.out.println("Amazing gift! Thank you " + name + "!");
         break;
 

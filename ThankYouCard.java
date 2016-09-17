@@ -9,30 +9,30 @@ class ThankYouCard {
 		System.out.println("Enter the name of the person you received the gift from:");
 		String name = input.nextLine();
 		String instructions = "Copy and paste the output below CTRL-Shift-V";
-    System.out.println("Look at the choices. Enter the number you want.");
-    int choice = input.nextInt();
+		System.out.println("Look at the choices. Enter the number you want.");
+		int choice = input.nextInt();
 
-    switch(choice)  {
+		switch(choice)  {
 
-        case 1:
-        System.out.println(instructions);
-        System.out.println("Thank you very much for the " + gift + " " + name + "! I really liked it!");
-        break;
+		case 1:
+		System.out.println(instructions);
+		System.out.println("Thank you very much for the " + gift + " " + name + "! I really liked it!");
+		break;
 
-        case 2:
-        System.out.println(instructions);
-        System.out.println("Thanks " + name + " for the " + gift + "!");
-        break;
+		case 2:
+		System.out.println(instructions);
+		System.out.println("Thanks " + name + " for the " + gift + "!");
+		break;
 
-        case 3:
-        System.out.println(instructions);
-        System.out.println("Amazing gift! Thank you " + name + "!");
-        break;
+		case 3:
+		System.out.println(instructions);
+		System.out.println("Amazing gift! Thank you " + name + "!");
+		break;
 
-        default:
-        System.out.println("You did not enter a valid choice.");
-        break;
-    }
+		default:
+		System.out.println("You did not enter a valid choice.");
+		break;
+		}
 	}
 	public static void main(String[] args) {
 		ThankYouCard printProgram = new ThankYouCard();

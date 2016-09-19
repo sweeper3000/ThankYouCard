@@ -8,6 +8,8 @@ class ThankYouCard {
 		String gift = input.nextLine();
 		System.out.println("Enter the name of the person you received the gift from:");
 		String name = input.nextLine();
+    System.out.println("Enter your name to sign the bottom:");
+    String signature = input.nextLine();
 		String instructions = "Copy and paste the output below CTRL-Shift-V";
 		System.out.println("Look at the choices. Enter the number you want.");
 		int choice = input.nextInt();
@@ -18,18 +20,21 @@ class ThankYouCard {
 		System.out.println(instructions);
     System.out.println("Dear " + name + ",");
 		System.out.println("Thank you very much for the " + gift + "! I really liked it!");
+    System.out.println("Love, " + signature);
 		break;
 
 		case 2:
 		System.out.println(instructions);
     System.out.println("Dear " + name + ",");
 		System.out.println("Thanks  for the " + gift + "!");
+    System.out.println("Love, " + signature);
 		break;
 
 		case 3:
 		System.out.println(instructions);
     System.out.println("Dear " + name + ",");
 		System.out.println("Amazing gift! Thank you!");
+    System.out.println("Love, " + signature);
 		break;
 
 		default:

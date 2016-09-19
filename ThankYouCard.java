@@ -3,7 +3,7 @@ class ThankYouCard {
 	private void PrintThankYou() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("THANK YOU CARD GENERATOR 1.1.3");
-		System.out.println("CHOICES:\nThank you very much for the [gift] [name]! I really liked it! (1)\nThanks [name] for the [gift]! (2)\nAmazing gift. Thank you [name]! (3)");
+		System.out.println("CHOICES:\nThank you very much for the [gift]! I really liked it! (1)\nThanks for the [gift]! (2)\nAmazing gift. Thank you! (3)\nAll notes start with Dear [name],\nThe bottom is signed with [signature] which is your name.");
 		System.out.println("Enter the item you received as a gift:");
 		String gift = input.nextLine();
 		System.out.println("Enter the name of the person you received the gift from:");

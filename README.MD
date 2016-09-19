@@ -24,14 +24,16 @@ Then open a terminal and go to the directory the file is located in. Then:
 `java ThankYouCard`
 
 ## Usage
-The usage is very simple. At the start of the program is 3 choices for sentences:
+The usage is very simple. At the start of the program is 3 choices for sentences. Here are the bodies:
 
-Thank you very much for the [gift] [name]! I really liked it! (1)
+Thank you very much for the [gift]! I really liked it! (1)
 
-Thanks [name] for the [gift]! (2)
+Thanks for the [gift]! (2)
 
-Amazing gift. Thank you [name]! (3)
+Amazing gift. Thank you! (3)
 
-There are two strings in which the user gives input. They are `gift` and `name`. In a print statement, they are defined in `[these_brackets]`.
+**All notes start with `Dear name,` on the first line.**
 
-The user inputs the `gift`, the `name` and enters the corresponding number. If a user inputs anything other than `1`, `2`, or `3`, the program prints `You did not enter a valid choice.`
+There are three strings in which the user gives input. They are `gift`, `name` and `signature`. In a print statement, they are defined in `[these_brackets]`.
+
+The user inputs the `gift`, the `name` of the person who sent the gift and a `signature` which is your name. You then enter the corresponding number. If a user inputs anything other than `1`, `2`, or `3`, the program prints `You did not enter a valid choice.`

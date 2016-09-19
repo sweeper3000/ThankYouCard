@@ -18,23 +18,23 @@ class ThankYouCard {
 
 		case 1:
 		System.out.println(instructions);
-    System.out.println("Dear " + name + ",");
+		System.out.println("Dear " + name + ",");
 		System.out.println("Thank you very much for the " + gift + "! I really liked it!");
-    System.out.println("Love, " + signature);
+		System.out.println("Love, " + signature);
 		break;
 
 		case 2:
 		System.out.println(instructions);
-    System.out.println("Dear " + name + ",");
-		System.out.println("Thanks  for the " + gift + "!");
-    System.out.println("Love, " + signature);
+		System.out.println("Dear " + name + ",");
+		System.out.println("Thanks for the " + gift + "!");
+		System.out.println("Love, " + signature);
 		break;
 
 		case 3:
 		System.out.println(instructions);
-    System.out.println("Dear " + name + ",");
+		System.out.println("Dear " + name + ",");
 		System.out.println("Amazing gift! Thank you!");
-    System.out.println("Love, " + signature);
+		System.out.println("Love, " + signature);
 		break;
 
 		default:
